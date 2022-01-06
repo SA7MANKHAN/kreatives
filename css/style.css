@@ -1,17 +1,5 @@
+
 @import url('https://fonts.googleapis.com/css2?family=Sora:wght@400;700&display=swap');
-
-/*
-
-If you don't have an internet connecton you can use local fonts.
-@font-face {
-    font-family: "Sora";
-    src: url("../fonts/Sora-Regular.ttf");
-}
-
-@font-face {
-    font-family: "Sora";
-    src: url("../fonts/Sora-Bold.ttf");
-}*/
 
 :root {
     --primary: #0d6efd;
@@ -53,6 +41,10 @@ img {
 .navbar .nav-link {
     font-size: 14px;
     font-weight: 700;
+}
+
+.navbar .nav-link.active {
+    color: var(--primary) !important;
 }
 
 .btn {
